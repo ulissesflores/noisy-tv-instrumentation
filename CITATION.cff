@@ -26,7 +26,7 @@ identifiers:
     value: "https://github.com/ulissesflores/noisy-tv-instrumentation"
     description: "Software source repository"
 repository-code: "https://github.com/ulissesflores/noisy-tv-instrumentation"
-version: 1.0.0
+version: 1.0.0-rc1
 date-released: 2026-08-02
 keywords:
   - noisy-TV problem

@@ -5,7 +5,7 @@
   "description": "Execution-verified companion for the article 'Noisy-TV em agentes LLM': minimal demonstrations of the cosine noise floor of embeddings (~1/sqrt(d)) and of the ghost-gap effect — a Goldilocks curiosity trigger paying 0.58 of maximum intensity for a gap fabricated entirely by measurement noise.",
   "codeRepository": "https://github.com/ulissesflores/noisy-tv-instrumentation",
   "license": "https://spdx.org/licenses/Apache-2.0",
-  "version": "1.0.0",
+  "version": "1.0.0-rc1",
   "author": [
     {
       "@type": "Person",

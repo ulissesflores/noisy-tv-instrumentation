@@ -1,6 +1,6 @@
 [project]
 name = "noisy-tv-instrumentation"
-version = "1.0.0"
+version = "1.0.0rc1"
 requires-python = ">=3.11"
 description = "Execution-verified companion for 'Noisy-TV em agentes LLM': the noisy-TV problem reborn in the measurement channel of LLM-agent intrinsic motivation."
 readme = "README.md"
