@@ -22,12 +22,30 @@ authors:
 type: software
 license: Apache-2.0
 identifiers:
+  - type: doi
+    value: "10.5281/zenodo.21764607"
+    description: "Concept DOI (Zenodo) — resolves to the latest version. Use this for citations."
+  - type: doi
+    value: "10.5281/zenodo.21764608"
+    description: "Versioned DOI (Zenodo) for the first archived release"
   - type: url
     value: "https://github.com/ulissesflores/noisy-tv-instrumentation"
     description: "Software source repository"
 repository-code: "https://github.com/ulissesflores/noisy-tv-instrumentation"
-version: 1.0.0-rc1
+version: 1.0.0
 date-released: 2026-08-02
+
+preferred-citation:
+  type: software
+  title: "noisy-tv-instrumentation: measurement-noise capture in the intrinsic-motivation instrumentation of LLM agents"
+  authors:
+    - family-names: Flores
+      given-names: Carlos Ulisses
+      orcid: "https://orcid.org/0000-0002-6034-7765"
+  year: 2026
+  doi: "10.5281/zenodo.21764607"
+  url: "https://doi.org/10.5281/zenodo.21764607"
+  license: Apache-2.0
 keywords:
   - noisy-TV problem
   - intrinsic motivation

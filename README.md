@@ -5,7 +5,7 @@
 **Measurement-noise capture in the intrinsic-motivation instrumentation of LLM agents —
 the noisy-TV problem, reborn inside the ruler.**
 
-<!-- DOI badge added at first Zenodo release -->
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21764607.svg)](https://doi.org/10.5281/zenodo.21764607)
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache_2.0-green.svg)](LICENSE)
 [![Docs: CC BY 4.0](https://img.shields.io/badge/Docs-CC_BY_4.0-lightgrey.svg)](LICENSES/CC-BY-4.0.txt)
 [![Python 3.11+](https://img.shields.io/badge/Python-3.11%2B-3776AB.svg?logo=python&logoColor=white)](https://www.python.org/)
@@ -48,7 +48,7 @@ Execution-verified companion for the article
 | Integrity | single `chain_hash` over code + data + results ([`output/hash-chain.md`](output/hash-chain.md)) |
 | Real-system provenance | daimon calibration (private codebase; minimal rewrites + frozen measured data) |
 | Pre-registration | falsifiable predictions + gate, draft: [`data/PREREGISTRATION.md`](data/PREREGISTRATION.md) |
-| Status | v1.0.0 — first public release, archived on Zenodo (DOI embedded pre-release) |
+| Status | v1.0.0 — first public release, archived on Zenodo · concept DOI [10.5281/zenodo.21764607](https://doi.org/10.5281/zenodo.21764607) |
 
 ## Quick start
 
@@ -132,8 +132,8 @@ ROADMAP.md            v0.2: colab, preregistered experiments, paper slot
 
 ## Citation
 
-Until the Zenodo DOI exists, cite the article. After the first release, the **concept DOI**
-always resolves to the latest version; version DOIs pin a specific release.
+Cite the **concept DOI** — it always resolves to the latest version
+(version DOIs pin a specific release).
 Machine-readable metadata: [`CITATION.cff`](CITATION.cff) · [`codemeta.json`](codemeta.json).
 
 ```bibtex
@@ -143,6 +143,7 @@ Machine-readable metadata: [`CITATION.cff`](CITATION.cff) · [`codemeta.json`](c
                in the intrinsic-motivation instrumentation of LLM agents}},
   year      = {2026},
   publisher = {Zenodo},
+  doi       = {10.5281/zenodo.21764607},
   version   = {1.0.0},
   url       = {https://github.com/ulissesflores/noisy-tv-instrumentation},
   orcid     = {0000-0002-6034-7765}

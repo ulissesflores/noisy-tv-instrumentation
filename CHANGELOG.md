@@ -8,6 +8,8 @@ All notable changes to this repository are documented here. The format follows
 
 ## [1.0.0] — 2026-08-02
 
+Archived on Zenodo — concept DOI [10.5281/zenodo.21764607](https://doi.org/10.5281/zenodo.21764607).
+
 First public release (nothing was published before this tag; the internal
 staging iterations are folded in here).
 
