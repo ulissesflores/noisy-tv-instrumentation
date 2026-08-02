@@ -1,0 +1,12 @@
+{
+  "ghost_gap": {
+    "gap": 0.177,
+    "intensity": 0.58,
+    "sigma_input": 0.177
+  },
+  "noise_floor": {
+    "d32": 0.177,
+    "d384": 0.051
+  },
+  "seed": 0
+}

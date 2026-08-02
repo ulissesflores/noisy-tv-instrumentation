@@ -1,0 +1,60 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "noisy-tv-instrumentation: measurement-noise capture in the intrinsic-motivation instrumentation of LLM agents"
+abstract: >-
+  Companion repository for the article "Noisy-TV em agentes LLM" (Ulisses Flores, 2026).
+  Minimal, execution-verified demonstrations of the cosine noise floor of embeddings
+  (sigma ~= 0.177 at d=32, ~= 0.051 at d=384, ~ 1/sqrt(d)) and of the ghost-gap effect:
+  a Goldilocks curiosity trigger (4*g*(1-g)) fed by that noise floor reads 0.58 of maximum
+  intensity on an agent with literally nothing left to learn. Includes the measured data
+  from the calibration of a real autonomous agent (daimon, private) and the bibliography
+  connecting two literatures — the classic noisy-TV line in RL and the LLM-agent
+  intrinsic-motivation instrumentation line — that do not cite each other.
+authors:
+  - family-names: Flores
+    given-names: Carlos Ulisses
+    email: c.ulisses@gmail.com
+    orcid: "https://orcid.org/0000-0002-6034-7765"
+    website: "https://ulissesflores.com"
+    affiliation: "Codex Hash Research Laboratory (CTO & Chief Researcher); American Global Tech University (MSc AI candidate)"
+    city: São Paulo
+    country: BR
+type: software
+license: Apache-2.0
+identifiers:
+  - type: url
+    value: "https://github.com/ulissesflores/noisy-tv-instrumentation"
+    description: "Software source repository"
+repository-code: "https://github.com/ulissesflores/noisy-tv-instrumentation"
+version: 1.0.0
+date-released: 2026-08-02
+keywords:
+  - noisy-TV problem
+  - intrinsic motivation
+  - curiosity-driven exploration
+  - LLM agents
+  - embeddings
+  - measurement noise
+  - learning progress
+  - reproducibility
+references:
+  - type: article
+    authors: [{family-names: Burda, given-names: "Y."}, {family-names: Edwards, given-names: "H."}, {family-names: Pathak, given-names: "D."}, {family-names: Storkey, given-names: "A."}, {family-names: Darrell, given-names: "T."}, {family-names: Efros, given-names: "A. A."}]
+    title: "Large-Scale Study of Curiosity-Driven Learning"
+    year: 2018
+    url: "https://arxiv.org/abs/1808.04355"
+  - type: article
+    authors: [{family-names: Mavor-Parker, given-names: "A. N."}, {family-names: Young, given-names: "K. A."}, {family-names: Barry, given-names: "C."}, {family-names: Griffin, given-names: "L. D."}]
+    title: "How to Stay Curious while avoiding Noisy TVs using Aleatoric Uncertainty Estimation"
+    year: 2022
+    url: "https://arxiv.org/abs/2102.04399"
+  - type: article
+    authors: [{family-names: Oudeyer, given-names: "P.-Y."}, {family-names: Kaplan, given-names: "F."}]
+    title: "What is intrinsic motivation? A typology of computational approaches"
+    year: 2007
+    doi: 10.3389/neuro.12.006.2007
+  - type: article
+    authors: [{family-names: Schmidhuber, given-names: "J."}]
+    title: "Driven by Compression Progress: A Simple Principle Explains Essential Aspects of Subjective Beauty, Novelty, Surprise, Interestingness, Attention, Curiosity, Creativity, Art, Science, Music, Jokes"
+    year: 2008
+    url: "https://arxiv.org/abs/0709.0674"

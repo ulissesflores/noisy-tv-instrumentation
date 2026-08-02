@@ -1,0 +1,17 @@
+The Noisy TV in the Instrument — article companion and paper staging package
+Copyright 2026 Carlos Ulisses Flores, Codex Hash Research Laboratory.
+
+This repository is dual-licensed:
+
+  * Source code (code/, tests/, scripts/, run_all.py, make_provenance.py) —
+    Apache License 2.0. See LICENSE and LICENSES/Apache-2.0.txt.
+
+  * Documentation, declared data and figures (docs/*, data/*, output/figures/*,
+    README.md, BIBLIOGRAPHY.md) — Creative Commons Attribution 4.0
+    International (CC BY 4.0). See LICENSES/CC-BY-4.0.txt.
+
+Provenance note: the in-situ measurements in data/measurements.json come from
+the calibration of daimon, a private codebase by the author, which is NOT
+included or licensed here. Only minimal rewrites and measured values appear in
+this package; the provenance chain (output/hash-chain.md) seals them against
+alteration.

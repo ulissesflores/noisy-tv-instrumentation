@@ -1,0 +1,36 @@
+{
+  "description": "Every number cited by the article, with method, source and verification date. Reproduced by code/ where marked.",
+  "verified": "2026-08-02",
+  "cosine_noise_floor": {
+    "method": "std of cosine similarity over 20000 pairs of random unit vectors (code/noise_floor.py, numpy seed 0)",
+    "theory": "approximately 1/sqrt(d) for random vectors in dimension d",
+    "values": [
+      { "dim": 32, "sigma_demo": 0.177, "sigma_daimon": 0.177, "note": "daimon hash embedder, calibration in recall.py" },
+      { "dim": 384, "sigma_demo": 0.051, "sigma_daimon": 0.050, "note": "daimon ONNX sentence-embedding model, calibration in recall.py" }
+    ]
+  },
+  "signals_vs_noise": {
+    "unit": "ranking score, dimensionless",
+    "values": [
+      { "name": "cosine noise floor, d=32", "value": 0.177 },
+      { "name": "one full day of memory decay", "value": 0.108 },
+      { "name": "one point of importance", "value": 0.100 },
+      { "name": "cosine noise floor, d=384", "value": 0.050 }
+    ],
+    "reading": "the instrument's noise (0.177) exceeds the signals it is supposed to rank (0.108, 0.100); only at d=384 does the instrument see the signal again",
+    "source": "daimon memory-ranking calibration (recall.py), re-verified against the code on 2026-08-02"
+  },
+  "ghost_gap": {
+    "formula": "intensity = 4*g*(1-g), zero outside [0, 1]",
+    "scenario": "true coverage 1.0 (nothing left to learn) minus 1 sigma of d=32 noise",
+    "gap_from_noise": 0.177,
+    "intensity": 0.58,
+    "reading": "58% of maximum curiosity fabricated by measurement noise alone (code/gap_intensity.py)",
+    "source": "trigger form from daimon wissenslucke.py (minimal rewrite), verified 2026-08-02"
+  },
+  "sampling": {
+    "temperature": 0.8,
+    "source": "daimon engine.py, verified 2026-08-02",
+    "note": "without an identical-stimulus repetition control, semantic-displacement metrics over sampled text are indistinguishable from sampler noise"
+  }
+}

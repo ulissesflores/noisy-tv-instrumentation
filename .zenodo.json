@@ -1,0 +1,23 @@
+{
+  "title": "noisy-tv-instrumentation: measurement-noise capture in the intrinsic-motivation instrumentation of LLM agents",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "Apache-2.0",
+  "version": "1.0.0",
+  "creators": [
+    {
+      "name": "Flores, Carlos Ulisses",
+      "orcid": "0000-0002-6034-7765"
+    }
+  ],
+  "keywords": [
+    "noisy-TV problem",
+    "intrinsic motivation",
+    "curiosity-driven exploration",
+    "LLM agents",
+    "embeddings",
+    "measurement noise",
+    "reproducibility"
+  ],
+  "notes": "Code is licensed Apache-2.0; text and figures are CC BY 4.0 (see LICENSES/). The daimon codebase referenced by the companion article is private and is not included; only minimal rewrites and measured data appear here."
+}

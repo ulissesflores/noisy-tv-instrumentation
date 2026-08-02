@@ -1,0 +1,7 @@
+# Verbatim freeze of the environment used for the sealed verification (2026-08-02).
+# Informational — not part of the provenance chain. Runtime needs only numpy.
+iniconfig==2.3.0
+numpy==2.4.6
+packaging==26.2
+pluggy==1.6.0
+pytest==9.0.3

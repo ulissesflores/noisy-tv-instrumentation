@@ -1,0 +1,29 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "noisy-tv-instrumentation",
+  "description": "Execution-verified companion for the article 'Noisy-TV em agentes LLM': minimal demonstrations of the cosine noise floor of embeddings (~1/sqrt(d)) and of the ghost-gap effect — a Goldilocks curiosity trigger paying 0.58 of maximum intensity for a gap fabricated entirely by measurement noise.",
+  "codeRepository": "https://github.com/ulissesflores/noisy-tv-instrumentation",
+  "license": "https://spdx.org/licenses/Apache-2.0",
+  "version": "1.0.0",
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Carlos Ulisses",
+      "familyName": "Flores",
+      "@id": "https://orcid.org/0000-0002-6034-7765"
+    }
+  ],
+  "keywords": [
+    "noisy-TV problem",
+    "intrinsic motivation",
+    "curiosity-driven exploration",
+    "LLM agents",
+    "embeddings",
+    "measurement noise",
+    "reproducibility"
+  ],
+  "relatedLink": [
+    "https://ulissesflores.com/artigos/noisy-tv-agentes"
+  ]
+}
