@@ -24,6 +24,16 @@ Execution-verified companion for the article
 [*Noisy-TV em agentes LLM*](https://ulissesflores.com/artigos/noisy-tv-agentes)
 (Ulisses Flores, 2026) and staging ground for the paper in progress.
 
+> [!NOTE]
+> **The paper grew out of this repository and now has its own.** *The Noisy TV in the
+> Measurement Channel: Unbudgeted Instrument Noise in the Intrinsic-Motivation
+> Instrumentation of LLM Agents* ships with a separate replication package —
+> [`noisy-tv-measurement-channel`](https://github.com/ulissesflores/noisy-tv-measurement-channel)
+> — carrying the clean-room harness, the pre-registration, the audit of eight deployed
+> agent-memory systems and the calibration tool. This repository remains the artifact of the
+> **measured instance**: the numbers it re-derives are the corroboration the paper cites, not
+> the paper's anchor.
+
 > **Nota em português:** repositório-companheiro do artigo. Todo número citado pelo texto é
 > reproduzido por código determinístico, travado por teste e selado por cadeia SHA-256 —
 > `python run_all.py` refaz a verificação inteira.
