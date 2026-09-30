@@ -21,7 +21,7 @@ Recompute and compare with: `python make_provenance.py --verify`
 
 ## Informational (NOT hashed)
 
-- Generated: 2026-08-02
+- Generated: 2026-08-03
 - Python: 3.14.6 on Darwin arm64
 - Figures (`output/figures/`) and `requirements.lock` are excluded so the
   chain survives machine and renderer changes; results are what is sealed.

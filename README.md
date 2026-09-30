@@ -129,7 +129,7 @@ output/               results.json, hash-chain.md, provenance.json, figures/
 docs/                 pt-BR and en: methodology + reproducibility
 REPRODUCIBILITY.md    two-seals contract and both replication tracks
 BIBLIOGRAPHY.md       the two literatures + prior-art scan summary
-ROADMAP.md            v0.2: colab, preregistered experiments, paper slot
+ROADMAP.md            v1.1: colab, preregistered experiments, paper slot
 ```
 
 ## Author
@@ -138,7 +138,7 @@ ROADMAP.md            v0.2: colab, preregistered experiments, paper slot
 
 [![ORCID](https://img.shields.io/badge/ORCID-0000--0002--6034--7765-A6CE39?logo=orcid&logoColor=white)](https://orcid.org/0000-0002-6034-7765)
 [![Website](https://img.shields.io/badge/Website-ulissesflores.com-1f6feb)](https://ulissesflores.com)
-[![Lattes](https://img.shields.io/badge/Lattes%20CV-CNPq-0a7d3c)](http://lattes.cnpq.br/6905246706890561)
+[![Lattes](https://img.shields.io/badge/Lattes%20CV-CNPq-0a7d3c)](https://lattes.cnpq.br/6905246706890561)
 
 ## Citation
 

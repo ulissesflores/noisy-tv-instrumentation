@@ -1,5 +1,17 @@
 # Reproducibility
 
+This file is the single source of the reproducibility contract.
+[`docs/en/reproducibility.md`](docs/en/reproducibility.md) and
+[`docs/pt-BR/reprodutibilidade.md`](docs/pt-BR/reprodutibilidade.md) carry the step-by-step
+walkthrough only and point back here.
+
+## Contract
+
+- **Bit-for-bit determinism:** every measurement uses `numpy.random.default_rng` with a
+  fixed seed (`SEED = 0`). `tests/test_determinism.py` enforces it.
+- **Published number = test assertion:** every value the article cites exists as an assert
+  in `tests/` — if the code and `data/measurements.json` ever drift apart, CI breaks.
+
 Two seals, deliberately distinct (the "two seals" pattern):
 
 1. **Reproducible derivation** — everything numpy: the noise floors, the scaling law, the
@@ -18,6 +30,11 @@ pip install -r code/requirements.txt
 python run_all.py
 # [1/3] results.json written ... [2/3] test suite green ... [3/3] provenance verified
 ```
+
+`run_all.py` rewrites the informational header of `output/hash-chain.md` (`Generated:`,
+`Python:`), so `git status` reporting that file as modified after a run is **expected**: those
+lines sit under `## Informational (NOT hashed)` and the `chain_hash` does not change. That the
+seal survives a different machine and a different date is what the block is for.
 
 ## Track 2 — full
 
